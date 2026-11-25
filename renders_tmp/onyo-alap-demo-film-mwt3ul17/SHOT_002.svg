@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#A9CDD6"/>
+      <stop offset="100%" stop-color="#E5D79F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <rect x="140" y="140" width="1000" height="390" rx="14" fill="#FAF6EB" stroke="#7B6B55" stroke-width="3" stroke-dasharray="8 6"/>
+         <rect x="180" y="180" width="170" height="290" rx="8" fill="#16339B" stroke="#E2E8F0" stroke-width="2"/>
+         <circle cx="265" cy="220" r="14" fill="#F8FAFC"/>
+         <text x="265" y="430" text-anchor="middle" fill="#FFFFFF" font-size="24" font-weight="700" font-family="sans-serif">পুলিশ</text>
+         <text x="400" y="245" fill="#1F1B18" font-size="36" font-weight="700" font-family="sans-serif">থানা প্রাঙ্গণ ও র্যাঙ্ক ডায়োরামা</text>
+         <text x="400" y="305" fill="#475569" font-size="22" font-family="sans-serif">SHOT_002 · diorama_thana_exterior</text>
+         <text x="400" y="355" fill="#0F172A" font-size="20" font-family="sans-serif">Render diorama_thana_exterior anchored on inspector</text>
+  <rect x="140" y="616" width="1000" height="60" rx="8" fill="rgba(15,23,42,0.86)"/>
+  <text x="640" y="654" text-anchor="middle" fill="#F8FAFC" font-size="22" font-family="sans-serif">থানার গেটে দাঁড়িয়ে থাকা কনস্টেবলের ব্যাজে শুধু রুপালি রঙে লেখা একটি শব্দ পুলিশ—ক</text>
+</svg>

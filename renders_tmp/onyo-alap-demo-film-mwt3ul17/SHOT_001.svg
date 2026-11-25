@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0A2A9F"/>
+      <stop offset="100%" stop-color="#041664"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#g)"/>
+  <text x="640" y="340" text-anchor="middle" fill="#FFFFFF" font-size="72" font-weight="700" font-family="sans-serif">অন্য আলাপ</text>
+  <rect x="140" y="616" width="1000" height="60" rx="8" fill="rgba(15,23,42,0.86)"/>
+  <text x="640" y="654" text-anchor="middle" fill="#F8FAFC" font-size="22" font-family="sans-serif">আসসালামু আলাইকুম। চেনা জিনিসের অচেনা দিক নিয়ে আমাদের আজকের অন্য আলাপের বিষয় বাংল</text>
+</svg>
