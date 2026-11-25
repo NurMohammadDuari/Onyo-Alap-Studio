@@ -1,0 +1,30 @@
+{
+  "projectId": "police-reference",
+  "createdAt": "2026-11-23T09:48:04.241Z",
+  "sources": [
+    {
+      "id": "SRC_MP4",
+      "path": "projects/police-reference/original/police_ranks.mp4",
+      "type": "video/mp4",
+      "sizeBytes": 96155979,
+      "sha256": "b5b044dc5ba71979141abc8584e84d6ab6558f3110cd6c161b22fbd30d23fe84",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "SRC_AUDIO_AAC",
+      "path": "projects/police-reference/audio/original_audio.aac",
+      "type": "audio/aac",
+      "sizeBytes": 21099799,
+      "sha256": "40e910e0a6d432d9102544eef0b39e17aac1ada8c511ba4808692d97b004e089",
+      "status": "VERIFIED"
+    },
+    {
+      "id": "SRC_AUDIO_WAV",
+      "path": "projects/police-reference/audio/original_audio.wav",
+      "type": "audio/wav",
+      "sizeBytes": 228323406,
+      "sha256": "21a526a427a45d0f3060dbd2f57238ee42c6a2e9c9249efb2d251d0730322f53",
+      "status": "VERIFIED"
+    }
+  ]
+}
