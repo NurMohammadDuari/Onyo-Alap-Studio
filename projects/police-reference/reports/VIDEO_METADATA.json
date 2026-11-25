@@ -1,0 +1,40 @@
+{
+  "sourceId": "POLICE_REFERENCE",
+  "youtubeId": "ukgbxNHllMY",
+  "youtubeUrl": "https://www.youtube.com/watch?v=ukgbxNHllMY",
+  "filename": "police_ranks.mp4",
+  "sha256": "b5b044dc5ba71979141abc8584e84d6ab6558f3110cd6c161b22fbd30d23fe84",
+  "fileSizeBytes": 96155979,
+  "durationSeconds": 1294.383265,
+  "containerFormat": "mov,mp4,m4a,3gp,3g2,mj2",
+  "video": {
+    "codec": "h264",
+    "profile": "Main",
+    "width": 1280,
+    "height": 720,
+    "aspectRatio": "16:9",
+    "pixFmt": "yuv420p",
+    "colorSpace": "bt709",
+    "nativeFps": 30,
+    "rFrameRate": "30/1",
+    "avgFrameRate": "30/1",
+    "isVfr": false,
+    "timeBase": "1/15360",
+    "startPts": 512,
+    "startTimeSeconds": 0.033333,
+    "totalDecodedFrames": 38829,
+    "bitRateBps": 462583,
+    "rotation": 0
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRateHz": 44100,
+    "channels": 2,
+    "channelLayout": "stereo",
+    "durationSeconds": 1294.383265,
+    "bitRateBps": 127996
+  },
+  "subtitles": [],
+  "detectedCutsCount": 96,
+  "verifiedAt": "2026-11-23T09:48:02.984Z"
+}
