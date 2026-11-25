@@ -1,0 +1,6 @@
+{
+  "name": "Onyo Alap Studio",
+  "description": "Visual DNA reverse-engineering, Next.js/React/Remotion paper-craft illustration engine, autonomous AI director, and storyboard-gated video production studio.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-jakarta), var(--font-bengali), system-ui, sans-serif;
+  --font-display: var(--font-jakarta), var(--font-bengali), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains), ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #F8F9FA;
+    color: #0F172A;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Tactile paper grain overlay utility for React diorama scenes */
+.paper-grain {
+  background-image: radial-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 0);
+  background-size: 16px 16px;
+}
