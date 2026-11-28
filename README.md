@@ -26,3 +26,35 @@ npx --yes tsx --test packages/storyboard-engine/src/approval-machine.test.ts pac
 npm run lint
 npm run build
 ```
+
+## Cinematic 10-Second 3D Render
+
+A three.js diorama rebuilt from a frame-by-frame analysis of the reference film
+(see `docs/REFERENCE_FRAME_ANALYSIS.md`): colonial three-arch thana, green louvered
+shutters, warm interior light, painted paper-cut foliage, cobalt police jeep,
+near-profile paper cut-out officers, tilt-shift lens and a synthesized score.
+
+The reference is a **tabletop diorama**: a modelled, lit 3D set with flat 2D
+paper characters composited over it. This rebuild keeps that split — the set,
+props, jeep and trees are three.js geometry and painted canvas textures; the
+three people are canvas-drawn cut-outs mapped onto camera-facing planes with a
+thin cream paper edge, exactly as they appear in the film.
+
+```bash
+bun install                                    # three + puppeteer-core
+bun build packages/cinematic-engine/src/three-scene.js \
+  --outfile packages/cinematic-engine/src/bundle.js --target browser
+
+python3 scripts/score-cinematic.py renders_tmp/onyo-alap-10s-3d/score.wav
+bun scripts/render-cinematic-3d.mjs            # 300 frames @ 30fps -> public/renders/onyo-alap-10s-cinematic.mp4
+bun scripts/render-cinematic-3d.mjs --stills 1.2,4.6,7.9   # quick 960x540 previews
+bun scripts/render-cinematic-3d.mjs --frames 0:120         # partial render, resumable
+bun scripts/render-cinematic-3d.mjs --encode               # re-grade + mux only
+```
+
+Rendering is chunked (40 frames per fresh headless Chrome, `CHUNK=40`) because
+SwiftShader sessions crash after a minute or two; finished frames are skipped so
+an interrupted render resumes automatically.
+
+Requires Google Chrome (headless WebGL via SwiftShader) and ffmpeg.
+Output: `public/renders/onyo-alap-10s-cinematic.mp4` (1920×1080, H.264, AAC).

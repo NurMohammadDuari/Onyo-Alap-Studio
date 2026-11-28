@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Onyo Alap — cinematic 3D diorama</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #000; overflow: hidden; }
+  #stage { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+  canvas { display: block; width: 1920px; height: 1080px; }
+  #overlay { position: absolute; inset: 0; pointer-events: none; }
+</style>
+</head>
+<body>
+  <div id="stage">
+    <canvas id="c"></canvas>
+    <div id="overlay"></div>
+  </div>
+  <script type="module" src="./bundle.js"></script>
+</body>
+</html>
